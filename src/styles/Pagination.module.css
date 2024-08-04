@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.pageButton {
+  padding: 10px 20px;
+  background-color: #daafb2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pageButton:disabled {
+  background-color: #ece3e3;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-size: 16px;
+}

@@ -1,0 +1,111 @@
+.dreamTeamContainer {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.dreamTeamList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleCard {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.dreamTeamCard {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.playerRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.playerCard {
+  position: relative; /* Added for price positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 180px;
+}
+
+.priceTag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.playerImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.teamImage {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 50px; /* Increase the size of the team image */
+  height: 50px; /* Increase the size of the team image */
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.playerDetails {
+  text-align: center;
+  margin: 0px;
+}
+
+.avgCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 150px;
+}
+
+.avgDetails {
+  text-align: center;
+}
+
+.averages {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bestStat {
+  color: green;
+  font-weight: bold;
+}
+
+.worstStat {
+  color: red;
+  font-weight: bold;
+}

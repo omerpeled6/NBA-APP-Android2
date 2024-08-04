@@ -1,0 +1,27 @@
+.playerListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.buttonDisable:disabled {
+  background-color: #ece3e3;
+  cursor: not-allowed;
+}
+
+.buttonDisable:disabled:hover {
+  background-color: #ece3e3;
+}
+
+.button:hover {
+  background-color: #1aac83;
+}

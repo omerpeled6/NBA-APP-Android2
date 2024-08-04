@@ -1,0 +1,154 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Atlanta Hawks",
+      "image": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
+    },
+    {
+      "id": 2,
+      "name": "Boston Celtics",
+      "image": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
+    },
+    {
+      "id": 3,
+      "name": "Brooklyn Nets",
+      "image": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
+    },
+    {
+      "id": 4,
+      "name": "Charlotte Hornets",
+      "image": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg"
+    },
+    {
+      "id": 5,
+      "name": "Chicago Bulls",
+      "image": "https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg"
+    },
+    {
+      "id": 6,
+      "name": "Cleveland Cavaliers",
+      "image": "https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"
+    },
+    {
+      "id": 7,
+      "name": "Dallas Mavericks",
+      "image": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
+    },
+    {
+      "id": 8,
+      "name": "Denver Nuggets",
+      "image": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg"
+    },
+    {
+      "id": 9,
+      "name": "Detroit Pistons",
+      "image": "https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg"
+    },
+    {
+      "id": 10,
+      "name": "Golden State Warriors",
+      "image": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
+    },
+    {
+      "id": 11,
+      "name": "Houston Rockets",
+      "image": "https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg"
+    },
+    {
+      "id": 12,
+      "name": "Indiana Pacers",
+      "image": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
+    },
+    {
+      "id": 13,
+      "name": "Los Angeles Clippers",
+      "image": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
+    },
+    {
+      "id": 14,
+      "name": "Los Angeles Lakers",
+      "image": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+    },
+    {
+      "id": 15,
+      "name": "Memphis Grizzlies",
+      "image": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
+    },
+    {
+      "id": 16,
+      "name": "Miami Heat",
+      "image": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
+    },
+    {
+      "id": 17,
+      "name": "Milwaukee Bucks",
+      "image": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
+    },
+    {
+      "id": 18,
+      "name": "Minnesota Timberwolves",
+      "image": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"
+    },
+    {
+      "id": 19,
+      "name": "New Orleans Pelicans",
+      "image": "https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg"
+    },
+    {
+      "id": 20,
+      "name": "New York Knicks",
+      "image": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"
+    },
+    {
+      "id": 21,
+      "name": "Oklahoma City Thunder",
+      "image": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
+    },
+    {
+      "id": 22,
+      "name": "Orlando Magic",
+      "image": "https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"
+    },
+    {
+      "id": 23,
+      "name": "Philadelphia 76ers",
+      "image": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
+    },
+    {
+      "id": 24,
+      "name": "Phoenix Suns",
+      "image": "https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"
+    },
+    {
+      "id": 25,
+      "name": "Portland Trail Blazers",
+      "image": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"
+    },
+    {
+      "id": 26,
+      "name": "Sacramento Kings",
+      "image": "https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"
+    },
+    {
+      "id": 27,
+      "name": "San Antonio Spurs",
+      "image": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
+    },
+    {
+      "id": 28,
+      "name": "Toronto Raptors",
+      "image": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
+    },
+    {
+      "id": 29,
+      "name": "Utah Jazz",
+      "image": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"
+    },
+    {
+      "id": 30,
+      "name": "Washington Wizards",
+      "image": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg"
+    }
+  ]
+}
