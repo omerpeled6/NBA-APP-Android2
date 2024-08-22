@@ -6,7 +6,6 @@ import likeRoutes from './routes/likeRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import basketRoutes from './routes/basketRoutes.js';
 import dreamTeamRoutes from './routes/dreamTeamRoutes.js';
-import myPlayerRoutes from './routes/myPlayerRoutes.js';
 
 dotenv.config();
 
@@ -23,7 +22,6 @@ app.use('/api/user', userRoutes);
 app.use('/api/like', likeRoutes);
 app.use('/api/basket', basketRoutes);
 app.use('/api/dreamteam', dreamTeamRoutes);
-app.use('/api/myplayer', myPlayerRoutes);
 
 mongoose
   .connect(process.env.MONGOURI, { dbName: 'demo_db' })
