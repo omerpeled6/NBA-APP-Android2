@@ -1,0 +1,53 @@
+/* Navbar.module.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.container a:hover {
+  color: #731d29;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div span {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #daafb2;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #731d29;
+}
+
+button:focus {
+  outline: none;
+}
