@@ -3,12 +3,17 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import cors from 'cors'
 import path from 'path' // Required to serve static files
+import { fileURLToPath } from 'url' // For ES module compatibility
 
 import likeRoutes from './routes/likeRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 import basketRoutes from './routes/basketRoutes.js'
 import dreamTeamRoutes from './routes/dreamTeamRoutes.js'
 import myPlayerRoutes from './routes/myPlayerRoutes.js'
+
+// Setup __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 dotenv.config()
 
@@ -44,8 +49,11 @@ if (process.env.NODE_ENV === 'production') {
 mongoose
   .connect(process.env.MONGOURI, { dbName: 'demo_db' })
   .then(() => {
-    app.listen(process.env.PORT, () => {
-      console.log('Connected to db & listening on port', process.env.PORT)
+    app.listen(process.env.PORT || 4000, () => {
+      console.log(
+        'Connected to db & listening on port',
+        process.env.PORT || 4000
+      )
     })
   })
   .catch((error) => {
